@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".notifikasi">
+
+
+    <TextView
+        android:id="@+id/notifikasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"
+        android:paddingStart="20dp"
+        android:textSize="25dp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:text="NOTIFIKASI" />
+
+    <TextView
+        android:id="@+id/baru_rilis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"
+        android:paddingStart="20dp"
+        android:textSize="22dp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:text="Baru Rilis" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingTop="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:src="@drawable/img_17"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sewu_dino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"
+                android:text="Sewu Dino" />
+
+            <TextView
+                android:id="@+id/jadwal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"
+                android:text="2023 ‧ Horor ‧ 2 j 1 m" />
+
+            <TextView
+                android:id="@+id/sinopsis_film"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"
+                android:text="Ditengah kesulitan ekonomi, Sri diterima bekerja untuk keluarga Atmojo dengan bayaran yang tinggi, karena keunikan yang ia miliki, yaitu lahir pada hari Jumat Kliwon." />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/barurilis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"
+        android:paddingStart="20dp"
+        android:textSize="22dp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:text="Film Favorit" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingTop="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:src="@drawable/img_18"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/transformer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"
+                android:text="Transformers: Rise of the Beasts" />
+
+            <TextView
+                android:id="@+id/tanggal1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"
+                android:text="2023 ‧ Laga/Petualangan ‧ 2 j 7 m" />
+
+            <TextView
+                android:id="@+id/sinopsis"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"
+                android:text="Di film ini, para karakter Transformers akan berubah menjadi bentuk robot, mobil, dan binatang, seperti gorila, macan tutul, dan naga"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/rekomenfilm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"
+        android:paddingStart="20dp"
+        android:textSize="22dp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:text="Rekomendasi Film" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingTop="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:src="@drawable/img_19"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/blackpanther"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"
+                android:text="Black Panther: Wakanda Forever" />
+
+            <TextView
+                android:id="@+id/tanggal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"
+                android:text="2022 ‧ Laga/Petualangan ‧ 2 j 41 m" />
+
+            <TextView
+                android:id="@+id/sipnosis"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"
+                android:text="Rakyat Wakanda kali ini akan berjuang untuk melindungi negerinya dari campur tangan kekuatan dunia setelah kematian sang Raja T'Challa." />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

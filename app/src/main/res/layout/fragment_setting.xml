@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:paddingTop="30dp"
+        android:layout_height="wrap_content"
+        android:text="PENGATURAN"
+        android:textColor="@color/black"
+        android:layout_marginStart="30dp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:paddingTop="35dp"
+        android:layout_height="wrap_content"
+        android:text="Informasi Akun"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:textSize="20dp"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Keamanan Akun"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:textSize="20dp"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Pengaturan Notifikasi"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:textSize="20dp"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Pengaturan Privasi"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:textSize="20dp"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Bahasa / Language"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:textSize="20sp"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Pusat Bantuan"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:textSize="20dp"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Ajukan Penghapusan Akun"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:textSize="20dp"
+        tools:ignore="DuplicateIds" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tombol_bulat4"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Ganti Akun" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tombol_bulat4"
+        android:layout_marginHorizontal="20dp"
+        android:text="Logout" />
+
+
+
+</LinearLayout>
